@@ -1,1 +1,21 @@
+/* Created by: Marshall
+* Created on: Apr 2022
+* This file contains the CSS for index.html
+*/
 
+.mdl-layout__content {
+  padding-left: 15pt;
+  padding-right: 15pt;
+  padding-top: 15pt;
+}
+
+body {
+  background-color: powderblue;
+  font-size: 10pt;
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+  color: black;
+  line-height: 14pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 5pt;
+}
