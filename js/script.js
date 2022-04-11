@@ -13,18 +13,21 @@ if (navigator.serviceWorker) {
   })
 }
 
-'use strict'
+;("use strict")
 
 /**
  * This function displays an alert.
  */
-function calculate () {
+function calculate() {
   // input
-  const fahrenheit = parseFloat(document.getElementById('fahrenheit-celsius').value)
+  const fahrenheit = parseFloat(
+    document.getElementById("fahrenheit-celsius").value
+  )
 
   // process
-  const celsius = (fahrenheit - 32) * 5 / 9
+  const celsius = ((fahrenheit - 32) * 5) / 9
 
   // output
-  document.getElementById('conversion').innerHTML = fahrenheit + '°F converted to Celsius is ' + celsius.toFixed(2) + ' ℃'
+  document.getElementById("conversion").innerHTML =
+    fahrenheit + "°F converted to Celsius is " + celsius.toFixed(2) + " ℃"
 }
